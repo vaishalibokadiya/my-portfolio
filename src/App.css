@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.w-full {
+  width: 100vw;
+}
+.block {
+  display: block;
+}
+
+.h-15rem {
+  height: 15rem;
+}
+.h-50rem {
+  height: 50rem;
+}
+.text-center {
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  left: 0px;
+  bottom: 15rem;
+}
