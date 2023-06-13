@@ -3,6 +3,11 @@
   justify-content: space-between !important;
   align-items: center;
 }
+.flex-1 {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
 .w-full {
   width: 100vw;
 }
@@ -13,9 +18,9 @@
 .h-15rem {
   height: 15rem;
 }
-.h-50rem {
+/* .h-50rem {
   height: 50rem;
-}
+} */
 .text-center {
   text-align: center;
 }
@@ -23,4 +28,13 @@
   position: absolute;
   left: 0px;
   bottom: 15rem;
+}
+.w-60 {
+  width: 60%;
+}
+.w-100 {
+  width: 100%;
+}
+.p-2rem {
+  padding: 2rem;
 }
