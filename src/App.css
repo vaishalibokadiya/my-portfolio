@@ -38,3 +38,6 @@
 .p-2rem {
   padding: 2rem;
 }
+.flex-col {
+  flex-direction: column;
+}
