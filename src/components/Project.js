@@ -3,28 +3,43 @@ import { FaGithub } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 
 const Project = (props) => {
-  const { title, subtitle, description, techStack, github, website, imageUrl } =
-    props.project;
+  const {
+    index,
+    title,
+    subtitle,
+    description,
+    techStack,
+    github,
+    website,
+    imageUrl,
+  } = props.project;
   return (
-    <div>
-      <div>
-        <h3>{title}</h3>
-        <h4>{subtitle}</h4>
-        <p>{description}</p>
-        <ul>
-          {techStack.map((tech, index) => {
-            return <li key={index}>{tech}</li>;
-          })}
-        </ul>
-        <a href={github}>
-          <FaGithub />
-        </a>
-        <a href={website}>
-          <LuExternalLink />
-        </a>
+    <div className={`${index % 2 ? "flex-row" : "flex-row-reverse"} w-100`}>
+      <div className="project-description w-35 flex-1 flex-col">
+        <div className="block">
+          <h1>{title}</h1>
+          <p className="color">{description}</p>
+          <div className="techs">
+            {techStack.map((tech, index) => {
+              return (
+                <span className="span" key={index}>
+                  {tech}
+                </span>
+              );
+            })}
+          </div>
+          <div className="links-icon">
+            <a className="icon" href={github}>
+              <FaGithub />
+            </a>
+            <a className="icon" href={website}>
+              <LuExternalLink />
+            </a>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src={imageUrl} height="500rem" width="1000rem" />
+      <div className="w-45">
+        <img src={imageUrl} width="90%" height="90%" />
       </div>
     </div>
   );

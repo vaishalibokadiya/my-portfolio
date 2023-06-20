@@ -1,14 +1,9 @@
 import React from "react";
 import Project from "./Project";
 
-import decorshop from "../images/decorshop.png";
-import memories from "../images/memories.png";
-import foodiehaven from "../images/foodiehaven.jpg";
-import dicegame from "../images/dicegame.png";
-
-const pro = [1, 2, 3];
 const projects = [
   {
+    index: 0,
     title: "DecorShop",
     subtitle: "An eccomerce website",
     description:
@@ -17,9 +12,10 @@ const projects = [
     github: "https://github.com/vaishalibokadiya/DecorShop",
     website: "https://decorshop.netlify.app/",
     imageUrl:
-      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1686824072/decorshop_r1rprv.png",
+      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1687162973/1_ixdoqd.png",
   },
   {
+    index: 1,
     title: "Memories App",
     subtitle: "A photo sharing social media app",
     description:
@@ -28,20 +24,11 @@ const projects = [
     github: "https://github.com/vaishalibokadiya/memories_app",
     website: "https://memories-app-bokadiya.netlify.app/",
     imageUrl:
-      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1686824071/memories_j1nhkl.png",
+      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1687162984/3_nl78ms.png",
   },
+
   {
-    title: "Dice Game",
-    subtitle: "A dice rolling game",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nobis, illo perspiciatis quo corrupti",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/vaishalibokadiya/piggame",
-    website: "https://vaishalibokadiya.github.io/piggame/",
-    imageUrl:
-      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1686824070/dicegame_ef4vh9.png",
-  },
-  {
+    index: 2,
     title: "Foodie Haven",
     subtitle: "A restuarant app",
     description:
@@ -50,7 +37,7 @@ const projects = [
     github: "https://github.com/vaishalibokadiya/foodwebsite",
     website: "https://vaishalibokadiya.github.io/foodwebsite/",
     imageUrl:
-      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1686824073/foodiehaven_fbefbj.jpg",
+      "https://res.cloudinary.com/dvtv6edfp/image/upload/v1687162982/2_rezw44.png",
   },
 ];
 
