@@ -39,3 +39,33 @@ a {
   height: 12rem;
   background-color: #0b2d39;
 }
+.logo {
+  margin: 1.2rem;
+}
+.text-blue {
+  color: #0b2d39;
+}
+a:hover {
+  color: #aad2f2 !important;
+}
+.letter-spacing {
+  letter-spacing: 0.2ch;
+}
+.brand {
+  font-size: medium;
+}
+.m-0 {
+  margin: 0;
+}
+.text-light-blue {
+  color: #2d54a0;
+}
+.intro {
+  font-size: xx-large;
+}
+.text-large {
+  font-size: large;
+}
+.h-82vh {
+  height: 82vh;
+}

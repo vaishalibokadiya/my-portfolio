@@ -4,17 +4,15 @@ import { TypeAnimation } from "react-type-animation";
 
 const Introduction = () => {
   return (
-    <div className="block mtb p-2rem">
-      <div className="flex flex-col">
+    <div className="h-82vh flex-center">
+      <div className="text-center">
         <div className="intro">
-          <h1 className="other-lines ">Hello! I am Vaishali,</h1>
-          <h1 className="center-line mt-ve">a Front-end Developer</h1>
-          <h1 className="other-lines mt-ve">based in India.</h1>
+          <h1 className="text-blue m-0">Hello! I am Vaishali,</h1>
+          <h1 className="text-light-blue m-0">a Front-end Developer</h1>
+          <h1 className="text-blue m-0">based in India.</h1>
         </div>
 
-        <p className="text-center text-grey fw-600 fs-10px ">
-          Welcome to my world
-        </p>
+        <p className="text-grey m-0 text-large">Welcome to my world</p>
       </div>
     </div>
   );
