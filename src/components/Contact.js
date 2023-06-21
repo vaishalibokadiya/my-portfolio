@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="w-50">
         <div>
           <h2 className="text-blue">Let's get connected</h2>
-          <Form>
+          <Form className="">
             <Form.Group>
               <Form.Control
                 className="w-full form-input h-2rem"
@@ -24,7 +24,7 @@ const Contact = () => {
             </FormGroup>
             <FormGroup>
               <Form.Control
-                className="w-full form-input"
+                className="w-full form-textarea p-1rem"
                 as="textarea"
                 placeholder="Type your message here"
               />
