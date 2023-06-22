@@ -3,16 +3,8 @@ import { FaGithub } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
 
 const Project = (props) => {
-  const {
-    index,
-    title,
-    subtitle,
-    description,
-    techStack,
-    github,
-    website,
-    imageUrl,
-  } = props.project;
+  const { index, title, description, techStack, github, website, imageUrl } =
+    props.project;
   return (
     <div
       className={`${

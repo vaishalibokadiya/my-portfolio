@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/vblogo.png";
-import { NavLink, Navbar } from "react-bootstrap";
+import { NavLink } from "react-bootstrap";
 import "../App.css";
 
 const Header = () => {
