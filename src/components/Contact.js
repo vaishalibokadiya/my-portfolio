@@ -3,7 +3,7 @@ import { Button, Form, FormGroup } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="flex-center h-95vh" id="contact">
+    <div className="flex-center h-95vh sm-height" id="contact">
       <div className="w-50 sm-contact">
         <div>
           <h2 className="text-blue">Let's get connected</h2>

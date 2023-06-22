@@ -218,6 +218,9 @@ button:hover {
   .sm-contact {
     width: 80%;
   }
+  .sm-height {
+    height: 70vh;
+  }
 }
 @media screen and (max-width: 630px) {
   .sm-image {
