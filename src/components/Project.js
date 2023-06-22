@@ -14,31 +14,35 @@ const Project = (props) => {
     imageUrl,
   } = props.project;
   return (
-    <div className={`${index % 2 ? "flex-row" : "flex-row-reverse"} w-100`}>
-      <div className="project-description w-35 flex-1 flex-col">
-        <div className="block">
-          <h1>{title}</h1>
-          <p className="color">{description}</p>
-          <div className="techs">
+    <div
+      className={`${
+        index % 2 ? "flex-row" : "flex-row-rev"
+      } text-center flex-center sm-project`}
+    >
+      <div className="w-50 sm-w-90">
+        <div className="">
+          <h1 className="text-blue">{title}</h1>
+          <p className="text-blue">{description}</p>
+          <div className="flex-center text-grey flex-wrap tech-container">
             {techStack.map((tech, index) => {
               return (
-                <span className="span" key={index}>
+                <span className="techs" key={index}>
                   {tech}
                 </span>
               );
             })}
           </div>
-          <div className="links-icon">
-            <a className="icon" href={github}>
+          <div className="icons">
+            <a className="icon text-grey" href={github}>
               <FaGithub />
             </a>
-            <a className="icon" href={website}>
+            <a className="icon text-grey" href={website}>
               <LuExternalLink />
             </a>
           </div>
         </div>
       </div>
-      <div className="w-45">
+      <div className="image flex-center mt-ve sm-image">
         <img src={imageUrl} width="90%" height="90%" />
       </div>
     </div>

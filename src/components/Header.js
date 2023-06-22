@@ -16,14 +16,17 @@ const Header = () => {
             </div>
           </a>
         </div>
-        <div className="w-30 flex fw-400">
-          <NavLink className="text-blue" href="home">
+        <div className="w-30 flex fw-400 header-links">
+          <NavLink className="text-blue" href="#intro">
             HOME
           </NavLink>
-          <NavLink className="text-grey" href="#">
+          <NavLink
+            className="text-grey"
+            href="https://drive.google.com/file/d/1g9evJzBO5vMlPxlxoOndXaQfhvDx24pA/view"
+          >
             RESUME
           </NavLink>
-          <NavLink className="text-grey" href="#">
+          <NavLink className="text-grey" href="#contact">
             CONTACT
           </NavLink>
         </div>
