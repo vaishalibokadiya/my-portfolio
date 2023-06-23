@@ -23,6 +23,8 @@ const Header = () => {
           <NavLink
             className="text-grey"
             href="https://drive.google.com/file/d/1g9evJzBO5vMlPxlxoOndXaQfhvDx24pA/view"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             RESUME
           </NavLink>

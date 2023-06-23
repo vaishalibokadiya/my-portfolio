@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div className="h-95vh flex-center m-ve" id="intro">
       <div className="text-center flex-1 h-100">
-        <div className="intro sm-intro">
+        <div className="intro sm-intro sm-padding">
           <h1 className="text-blue m-0 overflow-y-hidden">
             Hello! I am Vaishali,
           </h1>

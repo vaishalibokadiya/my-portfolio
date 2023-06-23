@@ -11,6 +11,7 @@ const Contact = () => {
             className=""
             action="https://formsubmit.co/el/dubewe"
             method="POST"
+            target="_blank"
           >
             <Form.Group>
               <Form.Control
