@@ -82,6 +82,7 @@ a:hover {
 .intro {
   font-size: xx-large;
   line-height: 4.5rem;
+  overflow-x: clip;
 }
 .text-large {
   font-size: large;
