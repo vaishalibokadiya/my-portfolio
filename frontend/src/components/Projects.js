@@ -5,10 +5,9 @@ const projects = [
   {
     index: 0,
     title: "DecorShop",
-    subtitle: "An eccomerce website",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nobis, illo perspiciatis quo corrupti",
-    techStack: ["javaScript", "ReactJS", "JWT", "mongodb", "CSS", "bootstrap"],
+      "DecorShop is an fully functional eccomerce website, where people can buy home decor and pay using paypal. It also has admin panel to manage products, orders and accounts.",
+    techStack: ["ReactJS", "JWT", "mongodb", "bootstrap", "paypal"],
     github: "https://github.com/vaishalibokadiya/DecorShop",
     website: "https://decorshop.netlify.app/",
     imageUrl:
@@ -17,9 +16,8 @@ const projects = [
   {
     index: 1,
     title: "Memories App",
-    subtitle: "A photo sharing social media app",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nobis, illo perspiciatis quo corrupti",
+      "Memories App is a photo sharing social media website, where anyone can view, create, comment and like a post.",
     techStack: ["javaScript", "ReactJS", "JWT", "CSS"],
     github: "https://github.com/vaishalibokadiya/memories_app",
     website: "https://memories-app-bokadiya.netlify.app/",
@@ -30,9 +28,8 @@ const projects = [
   {
     index: 2,
     title: "Foodie Haven",
-    subtitle: "A restuarant app",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nobis, illo perspiciatis quo corrupti",
+      "Foodie Haven is a static website, designed for a restuarant. It includes menu, contact and reviews of the restuarant.",
     techStack: ["HTML", "CSS"],
     github: "https://github.com/vaishalibokadiya/foodwebsite",
     website: "https://vaishalibokadiya.github.io/foodwebsite/",
@@ -44,13 +41,20 @@ const projects = [
 const Projects = () => {
   return (
     <div>
-      {projects.map((project, index) => {
-        return (
-          <div key={index}>
-            <Project project={project} />
-          </div>
-        );
-      })}
+      <div className="flex-center">
+        <div className="w-90">
+          <h1 className="text-light-blue mb-0">My Projects</h1>
+        </div>
+      </div>
+      <div className="">
+        {projects.map((project, index) => {
+          return (
+            <div key={index}>
+              <Project project={project} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
