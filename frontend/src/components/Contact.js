@@ -10,7 +10,7 @@ const Contact = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/", {
+      await axios.post("https://my-portfolio-server-wljg.onrender.com", {
         name,
         email,
         message,

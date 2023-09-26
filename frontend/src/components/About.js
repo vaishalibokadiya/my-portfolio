@@ -30,11 +30,10 @@ const About = () => {
                 <span className="text-blue">
                   <b>Vaishali Bokadiya</b>
                 </span>
-                , a full-stack developer equipped with a deep understanding of
-                both front-end and back-end development, I possess a
-                comprehensive understanding of the MERN stack. I specialize in
-                creating robust and user-friendly solutions that seamlessly
-                integrate functionality and aesthetics.
+                , a full-stack developer with comprehensive understanding of the
+                MERN stack. I specialize in creating robust and user-friendly
+                solutions that seamlessly integrate functionality and
+                aesthetics.
                 <br />
                 I firmly believe in writing clean, maintainable code that
                 adheres to best practices, ensuring long-term scalability and
