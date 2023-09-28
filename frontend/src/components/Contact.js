@@ -6,9 +6,13 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
   const display = () => {
     const success = document.getElementById("alert");
     success.style.display = "block";
+    setTimeout(() => {
+      success.style.display = "none";
+    }, 3000);
   };
 
   const submitHandler = async (e) => {
@@ -20,7 +24,7 @@ const Contact = () => {
         email,
         message,
       });
-      setTimeout(display, 5000);
+      display();
     } catch (error) {
       console.log(error);
     }
