@@ -10,7 +10,13 @@ const Header = () => {
         <div>
           <a href="#">
             <div className="flex">
-              <img className="logo" src={logo} height="50px" width="50px" />
+              <img
+                className="logo"
+                src={logo}
+                height="50px"
+                width="50px"
+                alt="logo"
+              />
 
               <h2 className="text-blue brand">VAISHALI BOKADIYA</h2>
             </div>

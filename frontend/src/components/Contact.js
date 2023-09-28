@@ -6,15 +6,21 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const display = () => {
+    const success = document.getElementById("alert");
+    success.style.display = "block";
+  };
 
   const submitHandler = async (e) => {
     e.preventDefault();
+
     try {
       await axios.post("https://my-portfolio-server-wljg.onrender.com", {
         name,
         email,
         message,
       });
+      setTimeout(display, 5000);
     } catch (error) {
       console.log(error);
     }
@@ -79,6 +85,9 @@ const Contact = () => {
               SUBMIT
             </Button>
           </Form>
+          <div className="alert text-white" id="alert">
+            <p>Thanks for reaching out!</p>
+          </div>
         </div>
       </div>
     </div>

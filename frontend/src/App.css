@@ -36,6 +36,13 @@ a {
 /* .nav-links {
   color: ;
 } */
+.alert {
+  font-size: small;
+  background-color: #88be88;
+  margin: 10px 0;
+  text-align: center;
+  display: none;
+}
 .text-grey {
   color: #869eaa !important;
 }
@@ -58,11 +65,15 @@ a {
   text-align: justify;
 }
 .footer {
-  height: 12rem;
+  height: 10rem;
   background-color: #0b2d39;
 }
 .logo {
   margin: 1.2rem;
+}
+.div-about {
+  min-height: fit-content;
+  padding-bottom: 50px;
 }
 .text-blue {
   color: #0b2d39;
@@ -103,7 +114,7 @@ a:hover {
   font-size: large;
 }
 .h-95vh {
-  height: 95vh;
+  height: 85vh;
 }
 .w-50 {
   width: 50%;
@@ -123,12 +134,27 @@ a:hover {
 .align {
   align-items: flex-end;
 }
+.mt-10 {
+  margin-top: 25px;
+}
 .btn {
   background-color: #0b2d39;
   color: #fff;
   border: none;
   height: 2.6rem;
   font-size: medium;
+}
+.text-white {
+  color: #fff;
+}
+.btn-resume {
+  background-color: #0b2d39;
+  color: #fff;
+
+  border: none;
+  font-size: small;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
 }
 
 .h-2rem {
@@ -228,6 +254,9 @@ button:hover {
   .header-links {
     display: none;
   }
+  .pt-x {
+    padding-top: 80px;
+  }
   .sm-project {
     flex-direction: column;
   }
@@ -245,6 +274,7 @@ button:hover {
   .sm-intro {
     font-size: x-large;
   }
+
   .sm-m-0 {
     margin: 0;
   }

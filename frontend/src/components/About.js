@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import img from "../images/1.png";
+import { NavLink } from "react-bootstrap";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
           <h1 className="text-light-blue">About me</h1>
 
           <div className="flex">
-            <div className="text-dark-grey w-60 sm-w-full">
+            <div className="text-dark-grey w-60 sm-w-full div-about">
               <TypeAnimation
                 sequence={[
                   "FullStack Web Developer",
@@ -45,6 +46,16 @@ const About = () => {
                 Please feel free to reach out to me, and let's discuss how we
                 can work together to create impactful solutions.
               </p>
+              <div className="mt-10 btn-resume">
+                <NavLink
+                  className="text-white"
+                  href="https://drive.google.com/file/d/1NQF_FilRaO5L-dK7idgNiv9MXE6849AS/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RESUME
+                </NavLink>
+              </div>
             </div>
             <div className="flex-center sm-img">
               <img src={img} width="450px" />

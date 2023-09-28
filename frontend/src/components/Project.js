@@ -13,7 +13,7 @@ const Project = (props) => {
     >
       <div className="w-50 sm-w-90">
         <div className="">
-          <h1 className="text-blue">{title}</h1>
+          <h1 className={`text-blue  ${index !== 0 ? "pt-x" : ""}`}>{title}</h1>
           <p className="text-blue">{description}</p>
           <div className="flex-center text-grey flex-wrap tech-container">
             {techStack.map((tech, index) => {
@@ -35,7 +35,7 @@ const Project = (props) => {
         </div>
       </div>
       <div className="image flex-center mt-ve sm-image">
-        <img src={imageUrl} width="90%" height="90%" />
+        <img src={imageUrl} width="90%" height="90%" alt="" />
       </div>
     </div>
   );

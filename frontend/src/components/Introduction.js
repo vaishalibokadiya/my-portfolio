@@ -11,7 +11,7 @@ const Introduction = () => {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true }}
             className="text-blue m-0 overflow-y-hidden"
           >
             Hello! I am Vaishali,
@@ -20,7 +20,7 @@ const Introduction = () => {
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true }}
             className="text-light-blue m-0 overflow-y-hidden"
           >
             a Front-end Developer
@@ -29,7 +29,7 @@ const Introduction = () => {
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true }}
             className="text-blue m-0  overflow-y-hidden"
           >
             based in India.
@@ -40,7 +40,7 @@ const Introduction = () => {
           variants={fadeIn("up", 0.6)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: true }}
           className="text-grey m-2rem text-large"
         >
           Welcome to my world
